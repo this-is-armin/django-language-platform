@@ -17,5 +17,4 @@ python manage.py runserver
 
 ## To manage the platform(website) you must be a SuperUser and to do it you can run the following command:
 ```shell
-python manage.py createsuperuser
-```# django-language-platform
+	python manage.py createsuperuser
