@@ -16,3 +16,6 @@
 
 ## To manage the platform(website) you must be a SuperUser and to do it you can run the following command:
     python manage.py createsuperuser
+
+### Admin-Panel address:
+    localhost:8000/admin
