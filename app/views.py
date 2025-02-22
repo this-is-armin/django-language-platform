@@ -61,7 +61,7 @@ class LanguageLessonDetailView(View):
 		if form.is_valid():
 			cd = form.cleaned_data
 			Comment.objects.create(lesson=lesson, user_name=cd['user_name'], user_email=cd['user_email'], text=cd['text']).save()
-			messages.success(request, 'The comment had been sent successfully.', 'primary')
+			messages.success(request, 'The comment has been sent successfully.', 'primary')
 			return redirect('app:language_lesson_detail', language.name, lesson.id, lesson.slug)
 		return render(request, self.template_name, context=context)
 
