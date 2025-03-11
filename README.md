@@ -1,21 +1,26 @@
-![](https://badgen.net/badge/Editor.js/v2.0/blue)
-
-
 # Instaling
-## Go to the project path in the terminal and run the following command:
+### Run the following command:
+```shell
+pip install -r requirements.txt
 
-    pip install -r requirements.txt
-	
-    python manage.py migrate
-	  
-    python manage.py runserver
+python manage.py migrate
+  
+python manage.py runserver
+```
 
-#### Open the browser and go to this address:
-
+### Open browser and go to this address:
+```shell
     localhost:8000
+```
 
-## To manage the platform(website) you must be a SuperUser and to do it you can run the following command:
-    python manage.py createsuperuser
+### To manage the platform(website) you must be a SuperUser and to do it you can run the following command:
+```shell
+python manage.py createsuperuser
+
+python manage.py migrate
+```
 
 ### Admin-Panel address:
-    localhost:8000/admin
+```shell
+localhost:8000/admin
+```
