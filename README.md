@@ -2,7 +2,7 @@
 
 
 # Instaling
-## Go to the project path in the terminal and run the following commands:
+## Go to the project path in the terminal and run the following command:
 
     pip install -r requirements.txt
 	
